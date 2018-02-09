@@ -18,6 +18,6 @@ func main () {
 	//fmt.Println()
 	//fmt.Println(leetcode.Reverse(189))
 	fmt.Println("")
-	fmt.Println(leetcode.Reverse(90000))
+	fmt.Println(leetcode.Reverse(189))
 
 }
