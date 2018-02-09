@@ -16,7 +16,7 @@ func two_sum(arr []int, target int) [][]int {
 }
 
 // only one pair
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	results := []int{}
 	for i := 0; i < len(nums) ; i++ {
 		for j := i+1; j < len(nums); j++ {
@@ -30,7 +30,7 @@ func twoSum(nums []int, target int) []int {
 	return results;
 }
 
-func twoSumMap(nums []int, target int) []int {
+func TwoSumMap(nums []int, target int) []int {
 
 	m := make(map[int]int)
 
