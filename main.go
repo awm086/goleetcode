@@ -14,4 +14,10 @@ func main () {
 	fmt.Println("add up 2 lists of number 1->3->4->5 (5431 + 5431)")
 	// https://leetcode.com/problems/add-two-numbers/description/
 	leetcode.CreatAndAddTwoList()
+
+	//fmt.Println()
+	//fmt.Println(leetcode.Reverse(189))
+	fmt.Println("")
+	fmt.Println(leetcode.Reverse(90000))
+
 }
