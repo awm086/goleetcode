@@ -19,5 +19,15 @@ func main () {
 	//fmt.Println(leetcode.Reverse(189))
 	fmt.Println("")
 	fmt.Println(leetcode.Reverse(189))
+	//                                             0123456789
+	//str := "aab"
+	str := "alialialib"
+	//str := "abcabcbb"
+	fmt.Println(leetcode.LengthOfLongestSubstring2(str))
+
+	//str = "abcabcbb"
+	//fmt.Println(leetcode.LengthOfLongestSubstring(str))
+
+
 
 }
